@@ -1,0 +1,31 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "VectorCalc"};
+	this.sidHashMap["VectorCalc"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<Root>/Vect1"] = {sid: "VectorCalc:11"};
+	this.sidHashMap["VectorCalc:11"] = {rtwname: "<Root>/Vect1"};
+	this.rtwnameHashMap["<Root>/From"] = {sid: "VectorCalc:16"};
+	this.sidHashMap["VectorCalc:16"] = {rtwname: "<Root>/From"};
+	this.rtwnameHashMap["<Root>/From1"] = {sid: "VectorCalc:17"};
+	this.sidHashMap["VectorCalc:17"] = {rtwname: "<Root>/From1"};
+	this.rtwnameHashMap["<Root>/From2"] = {sid: "VectorCalc:18"};
+	this.sidHashMap["VectorCalc:18"] = {rtwname: "<Root>/From2"};
+	this.rtwnameHashMap["<Root>/Goto"] = {sid: "VectorCalc:2"};
+	this.sidHashMap["VectorCalc:2"] = {rtwname: "<Root>/Goto"};
+	this.rtwnameHashMap["<Root>/MinMax"] = {sid: "VectorCalc:5"};
+	this.sidHashMap["VectorCalc:5"] = {rtwname: "<Root>/MinMax"};
+	this.rtwnameHashMap["<Root>/MinMax1"] = {sid: "VectorCalc:6"};
+	this.sidHashMap["VectorCalc:6"] = {rtwname: "<Root>/MinMax1"};
+	this.rtwnameHashMap["<Root>/Sum of Elements"] = {sid: "VectorCalc:4"};
+	this.sidHashMap["VectorCalc:4"] = {rtwname: "<Root>/Sum of Elements"};
+	this.rtwnameHashMap["<Root>/SumResult"] = {sid: "VectorCalc:12"};
+	this.sidHashMap["VectorCalc:12"] = {rtwname: "<Root>/SumResult"};
+	this.rtwnameHashMap["<Root>/MinResult"] = {sid: "VectorCalc:19"};
+	this.sidHashMap["VectorCalc:19"] = {rtwname: "<Root>/MinResult"};
+	this.rtwnameHashMap["<Root>/MaxResult"] = {sid: "VectorCalc:20"};
+	this.sidHashMap["VectorCalc:20"] = {rtwname: "<Root>/MaxResult"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();
