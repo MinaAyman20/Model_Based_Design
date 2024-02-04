@@ -1,0 +1,53 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["Calculator_stateflow.c:93c9"]=1;
+    this.traceFlag["Calculator_stateflow.c:94c9"]=1;
+    this.traceFlag["Calculator_stateflow.c:113c9"]=1;
+    this.traceFlag["Calculator_stateflow.c:114c9"]=1;
+    this.traceFlag["Calculator_stateflow.c:147c9"]=1;
+    this.traceFlag["Calculator_stateflow.c:148c11"]=1;
+    this.traceFlag["Calculator_stateflow.c:154c11"]=1;
+    this.traceFlag["Calculator_stateflow.c:155c11"]=1;
+    this.traceFlag["Calculator_stateflow.c:155c15"]=1;
+    this.traceFlag["Calculator_stateflow.c:156c12"]=1;
+    this.traceFlag["Calculator_stateflow.c:156c18"]=1;
+    this.traceFlag["Calculator_stateflow.c:156c24"]=1;
+    this.traceFlag["Calculator_stateflow.c:156c30"]=1;
+    this.traceFlag["Calculator_stateflow.c:156c37"]=1;
+    this.traceFlag["Calculator_stateflow.c:156c42"]=1;
+    this.traceFlag["Calculator_stateflow.c:157c8"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["Calculator_stateflow.c:93"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:94"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:95"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:113"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:114"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:115"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:131"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:147"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:148"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:149"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:151"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:154"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:155"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:156"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:157"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:179"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:180"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:186"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:187"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:193"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:194"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:200"]=1;
+    this.lineTraceFlag["Calculator_stateflow.c:201"]=1;
+    this.lineTraceFlag["Calculator_stateflow.h:38"]=1;
+    this.lineTraceFlag["Calculator_stateflow.h:39"]=1;
+    this.lineTraceFlag["Calculator_stateflow.h:44"]=1;
+    this.lineTraceFlag["Calculator_stateflow.h:45"]=1;
+    this.lineTraceFlag["Calculator_stateflow.h:46"]=1;
+    this.lineTraceFlag["Calculator_stateflow.h:47"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
